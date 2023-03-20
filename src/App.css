@@ -1,3 +1,12 @@
+h1 {
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+}
+
+form {
+  margin: 30px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +23,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e9e2fd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #363636;
 }
 
 .App-link {
@@ -35,4 +44,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input[type="text"] {
+  padding: 11px 35px;
+  margin: 0 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #6b35ee;
+  padding: 10px 20px;
+  border: 1px #6b35ee;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px #06060624;
+}
+
+input[type="submit"]:hover {
+  background-color: #541adb;
+  padding: 10px 20px;
+  border: 1px #541adb;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px #06060624;
+  transition: all 200ms ease;
+}
+
+ul {
+  list-style-type: none;
 }
